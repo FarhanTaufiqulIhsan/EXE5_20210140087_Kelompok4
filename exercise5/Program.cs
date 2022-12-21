@@ -13,7 +13,12 @@ namespace exercise5
     }
     class Queue
     {
-        
+        Node Farhan, Ihsan;
+        public Queue()
+        {
+            Farhan = null;
+            Ihsan = null;
+        }
         static void Main(string[] args)
         {
         }
