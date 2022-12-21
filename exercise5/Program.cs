@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace exercise5
 {
-    internal class Program
+    class Node
     {
+        public string nama;
+        public Node next;
+    }
+    class Queue
+    {
+        
         static void Main(string[] args)
         {
         }
