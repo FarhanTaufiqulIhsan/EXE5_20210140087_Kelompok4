@@ -27,6 +27,15 @@ namespace exercise5
             Node nodeBaru = new Node();
             nodeBaru.nama = nm;
             nodeBaru.next = null;
+
+            if (Farhan == null)
+            {
+                Farhan = nodeBaru;
+                Ihsan = nodeBaru;
+                return;
+            }
+            Ihsan.next = nodeBaru;
+            Ihsan = nodeBaru;
         }
         static void Main(string[] args)
         {
