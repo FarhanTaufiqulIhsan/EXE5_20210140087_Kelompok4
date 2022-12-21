@@ -37,6 +37,11 @@ namespace exercise5
             Ihsan.next = nodeBaru;
             Ihsan = nodeBaru;
         }
+
+        public void delete()
+        {
+            
+        }
         static void Main(string[] args)
         {
         }
