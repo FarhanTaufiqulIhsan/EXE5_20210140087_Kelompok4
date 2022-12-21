@@ -40,7 +40,15 @@ namespace exercise5
 
         public void delete()
         {
-            
+            if (Farhan == null)
+            {
+                Console.WriteLine("Kosong!!");
+                return;
+            }
+            Farhan = Farhan.next;
+
+            if (Farhan == null)
+                Ihsan = null;
         }
         static void Main(string[] args)
         {
