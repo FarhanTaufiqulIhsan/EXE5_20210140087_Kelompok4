@@ -50,6 +50,16 @@ namespace exercise5
             if (Farhan == null)
                 Ihsan = null;
         }
+
+        public void display()
+        {
+            if(Farhan == null)
+            {
+                Console.WriteLine("Kosong");
+                return ;
+            }
+            Node display;
+        }
         static void Main(string[] args)
         {
         }
