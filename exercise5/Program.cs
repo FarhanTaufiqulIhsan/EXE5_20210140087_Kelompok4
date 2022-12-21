@@ -19,6 +19,15 @@ namespace exercise5
             Farhan = null;
             Ihsan = null;
         }
+
+        public void insert(string nm)
+        {
+            Console.Write("\nMasukkan nama Mahasiswa");
+            nm = Console.ReadLine();
+            Node nodeBaru = new Node();
+            nodeBaru.nama = nm;
+            nodeBaru.next = null;
+        }
         static void Main(string[] args)
         {
         }
